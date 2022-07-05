@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from '../views/public/Home.vue'
 import Shop from '../views/public/Shop.vue'
 import View from '../views/public/View.vue'
+import Wishlist from '../views/public/Wishlist.vue'
 
 import NotFound from '../views/public/NotFound.vue'
 
@@ -16,7 +17,8 @@ const routes = [
         children: [
             { path: '/', name: 'home', component: Home },
             { path: '/shop', name: 'shop', component: Shop },
-            { path: '/view', name: 'view', component: View }
+            { path: '/view', name: 'view', component: View },
+            { path: '/wishlist', name: 'wishlist', component: Wishlist }
         ]
     },
     {
