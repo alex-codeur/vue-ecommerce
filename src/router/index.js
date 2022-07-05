@@ -9,6 +9,8 @@ import Cart from '../views/public/Cart.vue'
 import Checkout from '../views/public/Checkout.vue'
 import Register from '../views/public/Register.vue'
 import Login from '../views/public/Login.vue'
+import Profile from '../views/public/Profile.vue'
+import OrderComplete from '../views/public/OrderComplete.vue'
 
 import NotFound from '../views/public/NotFound.vue'
 
@@ -28,7 +30,9 @@ const routes = [
             { path: '/cart', name: 'cart', component: Cart },
             { path: '/checkout', name: 'checkout', component: Checkout },
             { path: '/register', name: 'register', component: Register },
-            { path: '/login', name: 'login', component: Login }
+            { path: '/login', name: 'login', component: Login },
+            { path: '/profile', name: 'profile', component: Profile },
+            { path: '/order-complete', name: 'order-complete', component: OrderComplete }
         ]
     },
     {
