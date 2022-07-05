@@ -5,6 +5,7 @@ import Shop from '../views/public/Shop.vue'
 import View from '../views/public/View.vue'
 import Wishlist from '../views/public/Wishlist.vue'
 import Account from '../views/public/Account.vue'
+import Cart from '../views/public/Cart.vue'
 
 import NotFound from '../views/public/NotFound.vue'
 
@@ -20,7 +21,8 @@ const routes = [
             { path: '/shop', name: 'shop', component: Shop },
             { path: '/view', name: 'view', component: View },
             { path: '/wishlist', name: 'wishlist', component: Wishlist },
-            { path: '/account', name: 'account', component: Account }
+            { path: '/account', name: 'account', component: Account },
+            { path: '/cart', name: 'cart', component: Cart }
         ]
     },
     {
