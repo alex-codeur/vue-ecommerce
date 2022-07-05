@@ -6,6 +6,7 @@ import View from '../views/public/View.vue'
 import Wishlist from '../views/public/Wishlist.vue'
 import Account from '../views/public/Account.vue'
 import Cart from '../views/public/Cart.vue'
+import Checkout from '../views/public/Checkout.vue'
 
 import NotFound from '../views/public/NotFound.vue'
 
@@ -22,7 +23,8 @@ const routes = [
             { path: '/view', name: 'view', component: View },
             { path: '/wishlist', name: 'wishlist', component: Wishlist },
             { path: '/account', name: 'account', component: Account },
-            { path: '/cart', name: 'cart', component: Cart }
+            { path: '/cart', name: 'cart', component: Cart },
+            { path: '/checkout', name: 'checkout', component: Checkout }
         ]
     },
     {
