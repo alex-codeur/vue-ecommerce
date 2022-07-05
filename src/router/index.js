@@ -12,6 +12,7 @@ import Login from '../views/public/Login.vue'
 import Profile from '../views/public/Profile.vue'
 import OrderComplete from '../views/public/OrderComplete.vue'
 import ManageAddress from '../views/public/ManageAddress.vue'
+import ChangePassword from '../views/public/ChangePassword.vue'
 
 import NotFound from '../views/public/NotFound.vue'
 
@@ -34,7 +35,8 @@ const routes = [
             { path: '/login', name: 'login', component: Login },
             { path: '/profile', name: 'profile', component: Profile },
             { path: '/order-complete', name: 'order-complete', component: OrderComplete },
-            { path: '/manage-address', name: 'manage-address', component: ManageAddress }
+            { path: '/manage-address', name: 'manage-address', component: ManageAddress },
+            { path: '/change-password', name: 'change-password', component: ChangePassword }
         ]
     },
     {
